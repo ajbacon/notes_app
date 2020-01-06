@@ -2,7 +2,7 @@ env:
   browser: true
   es6: true
 extends:
-  - google
+  - standard
 globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
