@@ -4,7 +4,7 @@ const describe = (description, callback) => {
 }
 
 const it = (msg, callback) => {
-  console.log("   " + msg)
+  console.log('   ' + msg)
   callback()
 }
 
