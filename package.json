@@ -4,7 +4,8 @@
   "description": "a notes app",
   "main": "note-model.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "http-server": "node node_modules/http-server/bin/http-server"
   },
   "author": "",
   "license": "ISC",
@@ -15,9 +16,8 @@
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
-  },
-  "dependencies": {
+    "eslint-plugin-standard": "^4.0.1",
     "http-server": "^0.12.0"
-  }
+  },
+  "dependencies": {}
 }
