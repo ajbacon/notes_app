@@ -3,9 +3,9 @@ const describe = (description, callback) => {
   callback()
 }
 
-// use 'describe' to define 'it'
 const it = (msg, callback) => {
-  describe(`  ${msg}`, callback)
+  console.log("   " + msg)
+  callback()
 }
 
 const matchers = (exp) => ({
